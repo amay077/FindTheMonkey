@@ -1,0 +1,39 @@
+# Version: 7.2.0.2 (58c3efa)
+# [first argument, ignore] # /Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/bin/iPhone/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/obj/iPhone/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-dev \
+	/Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/bin/iPhone/Debug/FindTheMonkey.app \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Users/hrnv/dev/playground/FindTheMonkey/Components/rxforxamarin-2.1/lib/ios/System.Reactive.Core.dll \
+	-r \
+	/Users/hrnv/dev/playground/FindTheMonkey/Components/rxforxamarin-2.1/lib/ios/System.Reactive.Debugger.dll \
+	-r \
+	/Users/hrnv/dev/playground/FindTheMonkey/Components/rxforxamarin-2.1/lib/ios/System.Reactive.Experimental.dll \
+	-r \
+	/Users/hrnv/dev/playground/FindTheMonkey/Components/rxforxamarin-2.1/lib/ios/System.Reactive.Interfaces.dll \
+	-r \
+	/Users/hrnv/dev/playground/FindTheMonkey/Components/rxforxamarin-2.1/lib/ios/System.Reactive.Linq.dll \
+	-r \
+	/Users/hrnv/dev/playground/FindTheMonkey/Components/rxforxamarin-2.1/lib/ios/System.Reactive.PlatformServices.dll \
+	-debug \
+	-linksdkonly \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=armv7 \
+	/Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/bin/iPhone/Debug/FindTheMonkey.exe \

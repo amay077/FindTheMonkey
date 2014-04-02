@@ -1,0 +1,8 @@
+/Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/obj/iPhone/Debug/mtouch-cache/Link/System.Reactive.Core.dll
+/Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
+/Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/obj/iPhone/Debug/mtouch-cache/Link/System.dll
+/Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/obj/iPhone/Debug/mtouch-cache/Link/System.Reactive.Interfaces.dll
+/Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/obj/iPhone/Debug/mtouch-cache/Link/System.Reactive.Linq.dll
+/Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/obj/iPhone/Debug/mtouch-cache/Link/System.Core.dll
+/Users/hrnv/dev/playground/FindTheMonkey/FindTheMonkey/obj/iPhone/Debug/mtouch-cache/Link/FindTheMonkey.exe

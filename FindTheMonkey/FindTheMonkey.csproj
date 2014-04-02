@@ -86,9 +86,28 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\Components\rxforxamarin-2.1\lib\ios\System.Reactive.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Debugger">
+      <HintPath>..\Components\rxforxamarin-2.1\lib\ios\System.Reactive.Debugger.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Experimental">
+      <HintPath>..\Components\rxforxamarin-2.1\lib\ios\System.Reactive.Experimental.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\Components\rxforxamarin-2.1\lib\ios\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\Components\rxforxamarin-2.1\lib\ios\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices">
+      <HintPath>..\Components\rxforxamarin-2.1\lib\ios\System.Reactive.PlatformServices.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -101,6 +120,7 @@
     <Compile Include="FindTheMonkeyViewController.designer.cs">
       <DependentUpon>FindTheMonkeyViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Extensions\CLLocationManagerExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="FindTheMonkeyViewController_iPhone.xib" />
@@ -116,5 +136,11 @@
     <BundleResource Include="Resources\Default%402x.png" />
     <BundleResource Include="Resources\Default-Portrait%402x.png" />
     <BundleResource Include="Resources\Default-Landscape%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="rxforxamarin">
+      <Version>2.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
   </ItemGroup>
 </Project>
